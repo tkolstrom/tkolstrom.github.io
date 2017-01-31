@@ -1,0 +1,67 @@
+.jumbotron {
+    background-color: royalblue;
+    color: blanchedalmond;
+    padding: 50px 25px 25px;
+    margin-bottom: 10px;
+    height: 100px;
+
+}
+
+.btn {
+
+    border: solid;
+    border-width: 1px;
+}
+
+
+.bg-grey {
+    background-color: #f6f6f6;
+
+}
+
+body {
+
+    position: relative;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+    .col-sm-4 {
+        text-align: left;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+
+    z-index: 9999;
+    border: 0;
+
+    font-size: 18px !important;
+
+
+}
+
+.navbar-brand {
+
+    font-size: 40px !important;
+
+
+}
+
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: royalblue !important;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: transparent !important;
+}
