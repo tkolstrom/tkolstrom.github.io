@@ -62,18 +62,19 @@
             <li>My primary interest in the field of Computer Science is full stack web development.</li>
             <li>In the field of music, I enjoy composing and producing in various genres.</li>
             <li>I developed this site from scratch using <a href="https://html5test.com/" target="_blank">HTML5</a>,
-                <a href="https://jquery.com">jQuery</a> and <a href="http://getbootstrap.com/">Twitter Bootstrap.</a>
+                <a href="https://jquery.com" target="_blank">jQuery</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap.</a>
             </li>
             <li>
                 It is being served out of an <a href="https://aws.amazon.com/s3/">Amazon S3</a> bucket.
             </li>
             <li>
-                I will be moving to Boulder, Colorado around mid-May. You can find my updated address in the
-                contact section.
+                I will be moving to Boulder, Colorado around mid-May.
+                You can find my updated address in the
+                    contact section.</li>
             </li>
         </ul>
         <br>
-        <button class="btn btn-success btn-sm">Download PDF Resume</button>
+        <a class="btn btn-success btn-sm" href="kolstrom-resume-2-1-17.pdf" target="_blank">Download PDF Resume</a>
     </small>
 </div>
 
@@ -161,10 +162,10 @@
                     <small>
                         <ul>
 
-                            <li><a href="software.html">IBM Nittany Watson Challenge</a>,
+                            <li><a href="#software" onclick="$('#btnWatson').click();">IBM Nittany Watson Challenge</a>,
                                 <i>Project Manager / Developer</i> (2017)
                             </li>
-                            <li><a href="software.html">pollEDU</a>, <i>Developer</i> (2016)</li>
+                            <li><a href="#software" onclick="$('#btnPollEDU').click();">pollEDU</a>, <i>Developer</i> (2016)</li>
 
                         </ul>
                     </small>
@@ -744,7 +745,7 @@
     </div>
 
     <!--Nittany Watson challenege -->
-    <button class="btn btn-secondary btn-block text-left" data-toggle="collapse" data-target="#watson">
+    <button id="btnWatson" class="btn btn-secondary btn-block text-left" data-toggle="collapse" data-target="#watson">
         <span style="float: left;"><strong>IBM Nittany Watson Challenge</strong></span>
         <span class="glyphicon glyphicon-triangle-bottom" style="font-size: 20px; float: right;"></span>
         <br>
@@ -832,7 +833,7 @@
     </div>
 
     <!--pollEDU -->
-    <button class="btn btn-secondary btn-block text-left" data-toggle="collapse" data-target="#polledu">
+    <button id="btnPollEDU" class="btn btn-secondary btn-block text-left" data-toggle="collapse" data-target="#polledu">
         <span style="float: left;"><strong>pollEDU</strong></span>
         <span class="glyphicon glyphicon-triangle-bottom" style="font-size: 20px; float: right;"></span>
 
@@ -1244,10 +1245,9 @@
                     <small>
                         <ul>
                             <li>
-                                <strong>Peter Björn and John - "Last Night (Kolstrom Remix)"</strong>
+                                <strong>Kolstrom - "Julie's Second Film"</strong>
                                 <br>
-                                <iframe width="100%" height="20" scrolling="no" frameborder="no"
-                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/5094514%3Fsecret_token%3Ds-7Kl52&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+                                <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/8098373&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
                             </li>
 
 
