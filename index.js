@@ -20,6 +20,17 @@ $(document).ready(function(){
                 window.location.hash = hash;
             });
         }
+
+    });
+
+
+
+
+    $('.btn').on('click', function(event) {
+
+        $(this).find('#gArrow').toggleClass('glyphicon-triangle-top', 'glyphicon-triangle-bottom');
+
+
     });
 
 
