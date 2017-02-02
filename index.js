@@ -15,6 +15,8 @@ $.fn.extend({
 
 $(document).ready(function(){
 
+
+
     $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
         $('.navbar-toggle').click();
@@ -38,10 +40,12 @@ $(document).ready(function(){
 
 
 
+
     $('.btn').on('click', function() {
 
         $(this).find('#gArrow').toggleClass('glyphicon-triangle-top', 'glyphicon-triangle-bottom');
         // $(this).animateCss('bounce');
+
 
 
 
