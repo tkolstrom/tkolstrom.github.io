@@ -2,6 +2,17 @@
  * Created by tkolstrom on 1/31/17.
  */
 
+$.fn.extend({
+    animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+            $(this).removeClass('animated ' + animationName);
+        });
+    }
+});
+
+
+
 $(document).ready(function(){
 
     $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
@@ -29,6 +40,7 @@ $(document).ready(function(){
     $('.btn').on('click', function(event) {
 
         $(this).find('#gArrow').toggleClass('glyphicon-triangle-top', 'glyphicon-triangle-bottom');
+        $(this).animateCss('bounce');
 
 
     });
