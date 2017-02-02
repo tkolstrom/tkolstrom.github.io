@@ -62,7 +62,7 @@ $(document).ready(function(){
         //     }
         // });
 
-        $(this).animateCss('fadeInDown');
+        $(this).animateCss('fadeIn');
 
     });
 
