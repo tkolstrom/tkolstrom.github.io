@@ -38,15 +38,29 @@ $(document).ready(function(){
 
 
 
-    $('.btn').on('click', function(event) {
+    $('.btn').on('click', function() {
 
         $(this).find('#gArrow').toggleClass('glyphicon-triangle-top', 'glyphicon-triangle-bottom');
-        $(this).animateCss('bounce');
+        // $(this).animateCss('bounce');
 
 
 
     });
 
+
+    $('.collapse').on('show.bs.collapse', function() {
+
+        // $(this).collapse();
+        //
+        // $('.collapse').each(function(index) {
+        //     if(!$(this).isCollapsed()){
+        //       $(this).collapse();
+        //     }
+        // });
+
+        $(this).animateCss('fadeInDown');
+
+    });
 
 
 
