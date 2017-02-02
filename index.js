@@ -20,6 +20,7 @@ $(document).ready(function(){
         $('.navbar-toggle').click();
 
 
+
         if (this.has !== "") {
             event.preventDefault();
 
@@ -41,6 +42,7 @@ $(document).ready(function(){
 
         $(this).find('#gArrow').toggleClass('glyphicon-triangle-top', 'glyphicon-triangle-bottom');
         $(this).animateCss('bounce');
+
 
 
     });
